@@ -1,3 +1,17 @@
-<ul>
-   <li><code>#include<vector></code></li>
-</ul>
+### Header Files Used in the Project
+
+This project uses several C++ standard header files to ensure efficient and modern programming practices. Below is the list and purpose of each header file:
+
+#### 1. **\<vector>**
+   - **Purpose**: 
+     - Provides the `std::vector` container, a dynamic array capable of resizing itself automatically.
+     - Allows efficient management of collections of elements, such as distances and juice capacities in our use case.
+   - **Features**:
+     - Supports random access using indices.
+     - Provides methods for insertion, deletion, and resizing.
+     - Automatically manages memory allocation and deallocation.
+   - **Usage in the Project**:
+     - Used to store distances of stalls and the juice capacity available at each stall.
+
+#### 2. **\<iostream>**
+   - **Purpose**: For input and output operations using `std::cin` and `std::cout`.
