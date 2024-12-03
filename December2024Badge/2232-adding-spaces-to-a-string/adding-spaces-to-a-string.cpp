@@ -6,7 +6,7 @@ public:
         int stringsize = s.size();
         int i=0;
         int j=0;
-        while(i<stringsize && j<n)
+        while(j<n)
         {
             newString<<s.substr(i,spaces[j]-i)<<" ";
             i = spaces[j];
