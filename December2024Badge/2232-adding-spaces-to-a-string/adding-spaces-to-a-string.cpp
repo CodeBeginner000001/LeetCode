@@ -1,18 +1,16 @@
 class Solution {
 public:
    string addSpaces(string s, vector<int>& spaces) {
-       int n = spaces.size();
         string newString="";
-        int stringsize = s.size();
-        int i=0;
-        int j=0;
-        while(j<n)
+        int stringIndex=0;
+        int arrayIndex=0;
+        while(arrayIndex< spaces.size())
         {
-            newString+=s.substr(i,spaces[j]-i)+" ";
-            i = spaces[j];
-            j++;
+            newString+=s.substr(stringIndex,spaces[arrayIndex]-stringIndex)+" ";
+            stringIndex = spaces[arrayIndex];
+            arrayIndex++;
         }
-        newString+=s.substr(i,stringsize);
+        newString+=s.substr(stringIndex,s.size());
         return newString;
     }
 };
