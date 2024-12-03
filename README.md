@@ -68,5 +68,5 @@ Leetcode-Challenges/
 
 For any inquiries or collaborations, feel free to reach out to me at:
 
-- **Email**: your.email@example.com
+- **Email**: ashu2100ag@example.com
 - **LinkedIn**: [Adarsh Goyal](https://linkedin.com/in/adarshgoyal01)
