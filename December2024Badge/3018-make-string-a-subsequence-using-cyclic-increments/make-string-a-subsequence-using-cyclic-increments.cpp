@@ -7,8 +7,8 @@ public:
     int j = 0;
     while (i < str1.size() && j < str2.size())
     {
-        if ((str1[i] == 'z' && str2[j] == 'a')|| 
-            (str1[i] == str2[j])|| 
+        if ((str1[i] == 'z' && str2[j] == 'a') || 
+            (str1[i] == str2[j]) || 
             (str1[i] + 1 == str2[j]))
         {
             i++;
