@@ -9,7 +9,7 @@ public:
     {
         if ((str1[i] == 'z' && str2[j] == 'a') || 
             (str1[i] == str2[j]) || 
-            (str1[i] + 1 == str2[j]))
+            (str1[i]+1 == str2[j]))
         {
             i++;
             j++;
