@@ -15,7 +15,7 @@ public:
             i++;
         }
         // Skip blank spaces in target
-        while (target[j] == '_') {
+        while (target[j] =='_') {
             j++;
         }
         if (i == Size || j == Size) {
