@@ -11,7 +11,7 @@ public:
 
     while (i < Size || j < Size) {
         // Skip blank spaces in start
-        while (start[i] == '_') {
+        while (start[i] =='_') {
             i++;
         }
         // Skip blank spaces in target
