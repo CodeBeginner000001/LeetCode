@@ -26,10 +26,10 @@ public:
             return false;
         }
         if(start[i] == target[j]){
-            if (start[i] == 'L' && i < j) {
+            if (start[i] =='L' && i < j) {
             return false;
         }
-        if (start[i] == 'R' && i > j) {
+        if (start[i] =='R' && i > j) {
             return false;
         }
         }
