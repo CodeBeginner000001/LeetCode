@@ -14,7 +14,7 @@ bool canAchievePenalty(const vector<int>& nums, int maxOperations, int penalty) 
 }
 // time complexity: O(nlogn)
 // space complexity: O(1)
-int minimumSize(vector<int> nums, int maxOperations) {
+int minimumSize(vector<int> nums,int maxOperations) {
     int left = 1; 
     int right = *max_element(nums.begin(), nums.end()); 
     int result = right;
