@@ -11,7 +11,6 @@ public:
             if (helper(s, n, mid)) l = mid;
             else r = mid;
         }
-
         return l;
     }
 private:
