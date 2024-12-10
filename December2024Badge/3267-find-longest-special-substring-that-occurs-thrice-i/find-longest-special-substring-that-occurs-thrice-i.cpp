@@ -14,7 +14,6 @@ public:
 
         return l;
     }
-
 private:
     bool helper(const string& s, int n, int x) {
         vector<int> cnt(26, 0);
@@ -25,7 +24,6 @@ private:
             if (i - p + 1 >= x) cnt[s[i] - 'a']++;
             if (cnt[s[i] - 'a'] > 2) return true;
         }
-
         return false;
     }
 };
