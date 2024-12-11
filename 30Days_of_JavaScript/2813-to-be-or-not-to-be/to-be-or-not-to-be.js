@@ -12,8 +12,6 @@ var expect = function(val) {
             if(val1!==val) return true;
             throw "Equal"
         }
-
-        
     }
 };
 
