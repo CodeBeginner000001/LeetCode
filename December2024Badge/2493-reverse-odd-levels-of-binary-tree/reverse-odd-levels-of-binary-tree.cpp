@@ -4,7 +4,6 @@ public:
         traverseDFS(root->left, root->right, 0);
         return root;
     }
-
 private:
     void traverseDFS(TreeNode* leftChild, TreeNode* rightChild, int level) {
         if (leftChild == nullptr || rightChild == nullptr) {
